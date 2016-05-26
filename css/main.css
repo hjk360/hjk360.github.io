@@ -2,8 +2,13 @@
 /* CSS Document */
 body{padding-top: 50px; font-family: "微软雅黑";}
 nav{background-color: #fff !important;}
+/*导航条*/
 .navbar-nav li:hover{background-color:#e7e7e7;color:#555;}
+.xiala-btn .xialaliebiao{display: none;list-style: none; padding: 0 15px; position: absolute; background-color: #fff;color: #000;}
+.xiala-btn:hover .xialaliebiao{display: block;}
+/*轮播图*/
 .carousel img{width: 100%;}
+/*产品*/
 .new-products{text-align:center; margin:10px 0;position: relative;}
 .new-products img{ display:inline-block; height:200px; width:200px; border:1px solid #ccc; }
 .new-products img:hover{box-shadow: 3px 3px 6px #666;}
