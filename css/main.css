@@ -17,7 +17,7 @@ nav{background-color: #fff !important;}
 .separator-strip{  border-radius: 3px ;background-color: #bce7c9;height: 20px;margin: 30px 0;}
 
 .company-info p{text-indent: 2em;line-height: 1.75em;}
-.company-info img{width: 450px;margin-bottom: 10px;}
+.company-info img{width:100%;margin-bottom: 10px;}
 .news{margin:10px 0 30px; border-top:2px solid #ccc;} 
 .news h5{font-size: 16px; color: #666; font-weight:bold;}
 .news li{margin:10px 0;}
