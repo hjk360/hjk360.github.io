@@ -28,7 +28,7 @@ nav{background-color: #fff !important;}
 .footer-info{padding:10px 10px 0;}
 .copyright a{color:#333; padding-top: 10px;}
 /*右下角动态显示QQ,微信,电话及返回顶部*/
-.right-bottom{position: fixed;bottom: 50px;left: 90%;width: 73px;margin-left: 40px;border: 1px solid #a38a54;border-radius: 3px;}
+.right-bottom{position: fixed;bottom: 50px;right:5px;width: 73px;margin-left: 40px;border: 1px solid #a38a54;border-radius: 3px;}
 .qq-box a, .wx-box a{display: block;width: 72px;height: 72px;}
 .qq-box,.wx-box,.phone-box,.go-top{width: 72px;height: 72px;line-height: 72px;cursor: pointer;text-align: center;margin:0;}
 .hot, .qq-box, .wx-box,.phone-box,.go-top{background-image: url(../images/icon.png);background-repeat: no-repeat;}
