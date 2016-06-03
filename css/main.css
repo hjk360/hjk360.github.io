@@ -47,7 +47,7 @@ nav{background-color: #fff !important;}
 .aboutus p{margin:10px;  line-height:2;}
 /*合作伙伴*/
 .partner {margin:10px 10px 20px; }
-.partner p{margin:0; padding: 0;}
+.partner p{margin:0; padding: 0;text-align: left;}
 .partner span{display:block; height: 120px; width: 120px; background-image: url(../images/partner.jpg);background-repeat:no-repeat;}
 .partner01{background-position: 0 0;}
 .partner02{background-position: 0 -120px;}
