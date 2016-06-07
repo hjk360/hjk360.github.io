@@ -10,7 +10,7 @@ nav{background-color: #fff !important;}
 .new-products{text-align:center; margin:10px 0;position: relative;}
 .new-products img{ display:inline-block; height:200px; width:200px; border:1px solid #ccc; }
 .new-products img:hover{box-shadow: 3px 3px 6px #666;}
-.hot{display: block; width: 45px; height: 45px;background-position: left bottom; position:absolute; top:5px; right:0;}
+.news li a{word-wrap:break-word; word-break:break-all; overflow: hidden;}
 .separator-strip{  border-radius: 3px ;background-color: #bce7c9;height: 20px;margin: 30px 0;}
 
 .company-info p{text-indent: 2em;line-height: 1.75em;}
