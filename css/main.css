@@ -7,7 +7,6 @@ nav{background-color: #fff !important;}
 .navbar-nav a:hover{background-color: #337ab7 !important; color: #fff !important;}
 .dropdown:hover .dropdown-menu{display: block;}
 /*产品*/
-/*产品*/
 .new-products{text-align:center; margin:10px 0;position: relative;}
 .new-products img{ display:inline-block; height:200px; width:200px; border:1px solid #ccc; }
 .new-products img:hover{box-shadow: 3px 3px 6px #666;}
