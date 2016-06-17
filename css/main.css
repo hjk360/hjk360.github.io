@@ -3,10 +3,12 @@
 body{padding-top: 50px; font-family: "微软雅黑";}
 nav{background-color: #fff !important;}
 .dropdown-menu {min-width: 80px !important;}
+.dropdown-menu li{margin:10px 0;}
+.navbar-nav .active a{background-color:#fff !important; }
 .navbar-nav a:hover{background-color: #337ab7 !important; color: #fff !important;}
 .dropdown:hover .dropdown-menu{display: block;}
-.new-products{text-align:center; margin:10px 0;position: relative;}
-.new-products img{ display:inline-block; height:200px; width:200px; border:1px solid #ccc; }
+.new-products{text-align:center; margin:10px 0 30px;position: relative;}
+.new-products img{ max-width: 90%;border:1px solid #ccc; }
 .new-products img:hover{box-shadow: 3px 3px 6px #666;}
 .separator-strip{ border-radius: 3px ;background-color: #bce7c9;height: 20px;margin: 30px 0;}
 .company-info p{text-indent: 2em;line-height: 1.75em;}
