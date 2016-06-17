@@ -2,30 +2,26 @@
 /* CSS Document */
 body{padding-top: 50px; font-family: "微软雅黑";}
 nav{background-color: #fff !important;}
-/*导航条*/
 .dropdown-menu {min-width: 80px !important;}
+.dropdown-menu li{margin:10px 0;}
+.navbar-nav .active a{background-color:#fff !important; }
 .navbar-nav a:hover{background-color: #337ab7 !important; color: #fff !important;}
 .dropdown:hover .dropdown-menu{display: block;}
-/*产品*/
-/*产品*/
-.new-products{text-align:center; margin:10px 0;position: relative;}
-.new-products img{ display:inline-block; height:200px; width:200px; border:1px solid #ccc; }
+.new-products{text-align:center; margin:10px 0 30px;position: relative;}
+.new-products img{ max-width: 90%;border:1px solid #ccc; }
 .new-products img:hover{box-shadow: 3px 3px 6px #666;}
-.hot{display: block; width: 45px; height: 45px;background-position: left bottom; position:absolute; top:5px; right:0;}
-.separator-strip{  border-radius: 3px ;background-color: #bce7c9;height: 20px;margin: 30px 0;}
-
+.separator-strip{ border-radius: 3px ;background-color: #bce7c9;height: 20px;margin: 30px 0;}
 .company-info p{text-indent: 2em;line-height: 1.75em;}
 .company-info img{width:100%;margin-bottom: 10px;}
 .news{margin:10px 0 30px; border-top:2px solid #ccc;} 
 .news h5{font-size: 16px; color: #666; font-weight:bold;}
-.news li{margin:10px 0;}
+.news li{margin:10px 0; overflow: hidden; width: 100%;}
 .news li span{float:right;}
-.news a{color:#333;text-decoration: none;}
+.news li a{color:#333;text-decoration: none; display: inline-block;width:70%;}
 .news a:hover{color: #0000FF;}
 .footer{ width:100%; background-color:#ccc; padding-bottom:5px;}
 .footer-info{padding:10px 10px 0;}
 .copyright a{color:#333; padding-top: 10px;}
-/*右下角动态显示QQ,微信,电话及返回顶部*/
 .right-bottom{position: fixed;bottom: 50px;right:5px;width: 73px;margin-left: 40px;border: 1px solid #a38a54;border-radius: 3px;}
 .qq-box a, .wx-box a{display: block;width: 72px;height: 72px;}
 .qq-box,.wx-box,.phone-box,.go-top{width: 72px;height: 72px;line-height: 72px;cursor: pointer;text-align: center;margin:0;}
